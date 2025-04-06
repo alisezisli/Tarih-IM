@@ -53,7 +53,7 @@ def format_events(events):
         return "🤐 Bu tarih için kayıtlı bir olay yok."
 
     return "\n\n".join([
-        f"*{e['header']}*\n_{datetime.strptime(e['date'], '%Y-%m-%d').strftime('%d-%m-%Y')}_\n{e['description']}"
+        f"*{e['header']}*\n_{datetime.strptime(e['date'], '%Y-%m-%d').strftime('%d-%m-%Y')}_\n\n{e['description']}"
         for e in events
     ])
 
