@@ -25,7 +25,6 @@ Bu bot, ilgili günde - kendince - önemli olay/olayları gösterir.
 
 ❓ Bu mesajı tekrar görmek için: /help, /yardim, /hakkinda
 
-https://gnuadm.in
 https://alisezisli.com.tr
 
 Bu bot, bir özgür yazılımdır ve GNU GPL v3 ile lisanslanmıştır.
